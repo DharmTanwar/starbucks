@@ -1,0 +1,96 @@
+/* /.navbar{
+    background-color: pink;
+    display: flex; */
+  /* justify-content: space-evenly ;
+}
+a{
+    text-decoration: none;
+    color: rgb(218, 10, 10);
+}
+li{
+    list-style-type: none; 
+    display: inline;
+}
+.outer{
+    height: 400px;
+    width: 400px;
+    background-color: blue;
+    display: flex; */
+    /* horizontal line ka liye  row  mai  */
+    /* justify-content: center; */
+    /* vertical-align ka liye ya matlab colume mai  */
+    /* align-items: center;
+
+}
+.inner{
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.biro{
+    height: 100px;
+    width: 100px;
+    background-color: black; */
+/* } */
+/* div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+}
+@media(max-width : 600px){
+    div{
+        background-color: green;
+    }
+}
+@media(min-width : 300px) and (max-width: 400px){
+    div{
+        background-color: pink;
+    }
+}
+@media(min-width : 400px) and (max-width: 600px){
+    div{
+        background-color: red;
+    }
+}
+@media(min-width : 600px){
+    div{
+        background-color: blue;
+    }
+}  */
+  /* div{ */
+    /* height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: aquamarine;
+    border: 2px solid  black;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    animation-name: colorframe;
+    animation-duration: 0.25s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+  }
+
+@keyframes colorframe{
+    from{background-color: aquamarine ;}
+    to { background-color: red;}
+} */
+ .loader{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 20px solid #B8DBD9;
+
+border-top: 20px solid #04724D;
+
+animation: transform 1s  ease-in-out infinite;
+ }
+ @keyframes transform{
+    from{transform:  rotate (0deg);}
+    to{ transform: rotate(360deg);}
+ }

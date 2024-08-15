@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    font-family: Arial ;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 135.80px;
+}
+.logo{
+    background-image: url("/html/images/amazon_logo2.png" );
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+    .border:hover{
+border: 1.5px  solid white;
+    }
+    /* box-2 */
+    .add-first{
+        color: #cccccc;
+        font-size: 0.8rem;
+        margin-left: 15px;
+    }
+    .add-second{
+      font-size: 1rem;
+      margin-left: 5px; 
+    }
+    .add-icon{
+        display: flex;
+        align-items: center;
+        
+    }
+    /* box3 */
+    .nav-search{
+        display: flex;
+        justify-content: space-evenly;
+        background-color: pink;
+        width: 620px;
+        height: 40px;
+        border-radius: 4px;
+    }
+    /* All ka liye */
+    .search-select{
+        align-items: center;
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+        background-color: #f3f3f3;
+        border: none;
+    }
+    /* search ka box */
+   .Search-input{
+    width: 100% ;  
+    font-size: 1rem;
+    border: none;
+   }
+/* search icon logo  */
+.Search-icon{
+    width: 40px;
+    display: flex;
+    justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+    background-color: rgb(255, 170, 0);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius:4px;
+    color: #0f1111;
+}
+span{
+    font-size: 0.7rem;
+    font-weight: 400;
+}
+.nav-second{
+font-size: 0.85rem;
+font-weight: 700;
+}
+.nav-search :hover{
+    border: 2px solid orange;
+}
+/* cart  */
+.nav-cart i{
+   font-size: 30px;
+}
+.nav-cart{
+    font-size: 14px;
+    font-weight: 700;
+}
+/* panel  */
+.panel{
+    height:40px ; 
+    background-color: #232f3e; 
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.panel-ops p{
+    display: inline;
+    margin-left: 10px;
+}
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.hero{
+    background-image: url(/html/images/image.png);
+    background-size: cover;
+    height: 600px; 
+}
+.phones{
+    width: 300px;
+    height: 350px;
+    color: black;
+    background-color: white;
+position: absolute;
+bottom: 0;
+}
+/* shoping  */
+.shoping{
+    display: flex;
+   justify-content: space-evenly;
+   background-color: #e2e7e6;
+   margin-top: 15px;
+}
+.box{
+    height: 350px;  
+    width: 23%;
+    border: 2px solid black;
+    background-color: white;
+}
